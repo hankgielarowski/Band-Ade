@@ -118,6 +118,7 @@ var bandade = {
            map: map,
            title: coord.title,
            animation: google.maps.Animation.DROP,
+          
          });
          marker.addListener('click', toggleBounce);
        }),
